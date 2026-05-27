@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+.dev-logs/
+*.log
+.vscode/
+.DS_Store
+Thumbs.db
+Backend/automation/sessions/
+Backend/automation/logs/
+Backend/uploads/
+Backend/automation/media/
+

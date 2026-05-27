@@ -1,0 +1,11 @@
+{
+  "name": "ai-jobapplication-automation",
+  "private": true,
+  "scripts": {
+    "validate:infra": "node scripts/validateInfra.js",
+    "validate:automation": "node scripts/validateAutomation.js",
+    "smoke:test": "cd Backend && node testing/testAutomationFlow.js",
+    "docker:up": "docker compose up --build -d",
+    "docker:down": "docker compose down"
+  }
+}
