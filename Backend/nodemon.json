@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "automation/sessions/*",
+    "automation/logs/*",
+    "automation/media/*",
+    "uploads/*"
+  ]
+}

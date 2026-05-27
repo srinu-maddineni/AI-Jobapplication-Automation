@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Rounded brand background icon -->
+  <rect width="100" height="100" rx="28" fill="url(#bgGrad)" />
+  
+  <!-- Robotic automation head -->
+  <rect x="28" y="32" width="44" height="34" rx="8" fill="#ffffff" />
+  
+  <!-- Ears -->
+  <rect x="22" y="43" width="6" height="12" rx="3" fill="#ffffff" />
+  <rect x="72" y="43" width="6" height="12" rx="3" fill="#ffffff" />
+  
+  <!-- Glowing robotic eyes -->
+  <circle cx="42" cy="49" r="4.5" fill="#2563eb" />
+  <circle cx="58" cy="49" r="4.5" fill="#2563eb" />
+  
+  <!-- Robot mouth line -->
+  <path d="M44 58h12" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Antenna -->
+  <path d="M50 32v-8" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <circle cx="50" cy="20" r="4" fill="#fbbf24" />
+  
+  <!-- Success / Application checkmark -->
+  <path d="M42 74 l8 8 l18 -18" fill="none" stroke="#fbbf24" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+</svg>
